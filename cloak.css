@@ -1,0 +1,57 @@
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+
+  height: 100vh;
+}
+
+canvas {
+  margin: 30px 0 0;
+  cursor: pointer;
+}
+
+.𐚛 {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+button,
+a {
+  font-size: 48px;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+a {
+  font-family: "Noto Sans Kawi", sans-serif;
+
+  color: #000;
+  border-radius: 50px;
+  text-decoration: none;
+
+  margin: 30px 0 0;
+  padding: 0;
+}
+
+canvas,
+a,
+.𐚛 {
+  opacity: 0;
+}
+
+.𐛠 * {
+  opacity: 1;
+}
+
+a:hover,
+button:hover,
+button.active {
+  color: #ffa600;
+}
